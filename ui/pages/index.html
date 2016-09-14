@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" type="text/css" href="../frontend/main.css" media="screen"/>
+</head>
+<body>
+
+<!-- build:remove -->
+<!-- Connect to server process -->
+<script>require('electron-connect').client.create()</script>
+<!-- end:build -->
+
+<div class="container"></div>
+</body>
+
+<script>require('./../frontend/main.js')</script>
+<script>require('./../clojure/main.js')</script>
+</html>

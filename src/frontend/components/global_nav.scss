@@ -1,0 +1,18 @@
+.component--GlobalNav {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding: 0.5rem 0rem;
+  background: #f8f9ff;
+  height: 1em;
+  overflow: hidden;
+  font-family: Arial;
+  a {
+    margin: 0rem 0rem 0rem 0.5rem;
+    text-decoration: none;
+    &:hover {
+      color: #ffc520;
+    }
+  }
+}
