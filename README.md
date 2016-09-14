@@ -1,4 +1,4 @@
-# Template
+# Electron with Clojure
 
 ## Dev
 
@@ -16,9 +16,14 @@ To watch for changes:
 To run ui:
 
     cd ui
-    gup watch
+    gulp watch
 
 To run clojure compiler:
 
     cd src/clojure
-    lein cljsbuild aut
+    lein cljsbuild auto
+
+## Notes
+
+Yes, that does mean you need three different watch tasks all running at the
+same time; es6, clojure and electron.
