@@ -5564,6 +5564,7 @@ function Me(a, b) {
   }(a, b, c)])], null);
 }, new Ab(null, 2, [new V(null, "mouseenter", "mouseenter", -1792413560), new V(null, "mouseover", "mouseover", -484272303), new V(null, "mouseleave", "mouseleave", 531566580), new V(null, "mouseout", "mouseout", 2049446890)], null)));
 console.log("Hello from ClojureScript 3!");
+console.log("Hello from ClojureScript 4!");
 var Ne = document.body, Oe = da(function(a) {
   return a instanceof V ? [B(function() {
     var b = Qc(a);
